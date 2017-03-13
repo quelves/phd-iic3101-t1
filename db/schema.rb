@@ -11,13 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170313002200) do
+ActiveRecord::Schema.define(version: 20140707111715) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-# Could not dump table "users" because of following StandardError
-#   Unknown type 'usertype' for column 'type'
 
   create_table "widgets", force: :cascade do |t|
     t.string   "name"
