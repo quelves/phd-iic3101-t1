@@ -1,0 +1,11 @@
+class User < ActiveRecord::Base
+  enum userType: [:ADMINISTRATOR, :AUTHOR, :EDITHOR, :CONTRIBUTOR, :SUBSCRIBER]
+
+  enum gender: {
+      ADMINISTRATOR: 'ADMINISTRATOR',
+      AUTHOR: 'AUTHOR',
+      EDITHOR: 'EDITHOR',
+      CONTRIBUTOR: 'CONTRIBUTOR',
+      SUBSCRIBER: 'SUBSCRIBER'
+  }
+end
