@@ -1,8 +1,6 @@
-# ruby-getting-started
+# IIC3101 
 
-A barebones Rails app, which can easily be deployed to Heroku.
 
-This application support the [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby) article - check it out.
 
 ## Create Model
 ```sh
