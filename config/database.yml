@@ -24,7 +24,7 @@ default: &default
 development:
   <<: *default
   database: iic3101_t1_db_dev
-  username: postgres
+#  username: postgres
   password: 
 
   # The specified database role being used to connect to postgres.
@@ -60,7 +60,7 @@ development:
 test:
   <<: *default
   database: iic3101_t1_db_test
-  username: postgres
+ # username: postgres
   password: 
 
 # As with config/secrets.yml, you nevpostgreser want to store sensitive information,
